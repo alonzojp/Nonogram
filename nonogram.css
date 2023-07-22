@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+hr {
+    width:50%;
+}
+#board {
+    width: 400px;
+    height: 400px;
+    margin: 0 auto;
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tile {
+    width: 38px;
+    height: 38px;
+    border: 1px solid lightgray;
+
+    font-size: 20px;
+    font-weight:bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#markers {
+    width: 80px;
+    height: 40px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.numbers {
+    width: 34px;
+    height: 34px;
+    border: 1px solid black;
+    margin: 2px;
+
+    font-size: 20px;
+    font-weight:bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.marker-selected {
+    background-color: gray;
+}
+
+.horizontal-line {
+    border-bottom: 1px solid black;
+}
+
+.vertical-line {
+    border-right: 1px solid black;
+}
